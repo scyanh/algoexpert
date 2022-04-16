@@ -2,15 +2,15 @@ package main
 
 import (
 	"fmt"
-	"github.com/scyanh/algoexpert/famousalgorithms"
+	"github.com/scyanh/algoexpert/strings"
 )
 
 func main() {
 	fmt.Println("hello")
-	input := []int{75, 105, 120, 75, 90, 135}
+	str:="AAAAAAAAAAAAABBCCCCDD"
 	//input := []int{7, 10, 12, 7, 9, 14}
 
-	f := famousalgorithms.NewKadanesAlgorith()
-	res := f.KadanesAlgorithm(input)
+	f := strings.NewRunLengthEncoding()
+	res := f.RunLengthEncoding(str)
 	fmt.Println("res=", res)
 }
