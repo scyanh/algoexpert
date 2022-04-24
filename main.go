@@ -7,11 +7,12 @@ import (
 
 func main() {
 	fmt.Println("hello")
-	str:="Bste!hetsi ogEAxpelrt x "
-	str2:="AlgoExpert is the Best!"
-	//input := []int{7, 10, 12, 7, 9, 14}
+	//str:="1921680"
+	//str:="245245245245"
+	str:="1"
+	//str:="9743"
 
-	f := strings.NewGenerateDocument()
-	res := f.GenerateDocument(str, str2)
+	f := strings.NewValidIPAddress()
+	res := f.ValidIPAddresses(str)
 	fmt.Println("res=", res)
 }
