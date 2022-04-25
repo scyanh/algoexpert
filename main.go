@@ -7,12 +7,10 @@ import (
 
 func main() {
 	fmt.Println("hello")
-	//str:="1921680"
-	//str:="245245245245"
-	str:="1"
-	//str:="9743"
+	str:="a b c d e"
+	//str:="AlgoExpert is the best!"
 
-	f := strings.NewValidIPAddress()
-	res := f.ValidIPAddresses(str)
+	f := strings.NewReverseWordsInString()
+	res := f.ReverseWordsInString(str)
 	fmt.Println("res=", res)
 }
