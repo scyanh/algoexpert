@@ -7,10 +7,9 @@ import (
 
 func main() {
 	fmt.Println("hello")
-	str:="a b c d e"
-	//str:="AlgoExpert is the best!"
+	str:=[]string{"this", "that", "did", "deed", "them!", "a"}
 
-	f := strings.NewReverseWordsInString()
-	res := f.ReverseWordsInString(str)
+
+	res := strings.NewMinimumCharactersForWords().MinimumCharactersForWords(str)
 	fmt.Println("res=", res)
 }
