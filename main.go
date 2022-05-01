@@ -7,8 +7,9 @@ import (
 
 func main() {
 	fmt.Println("hello")
-	arr:=[]int{1, 2, 3}
+	//arr:=[]int{1, 2, 3}
+	phoneNumber:="123"
 
-	res := recursion.NewPowerset().Powerset(arr)
+	res := recursion.NewPhoneNumberMnemonics().PhoneNumberMnemonics(phoneNumber)
 	fmt.Println("res=", res)
 }
