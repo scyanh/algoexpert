@@ -2,14 +2,13 @@ package main
 
 import (
 	"fmt"
-	"github.com/scyanh/algoexpert/strings"
+	"github.com/scyanh/algoexpert/recursion"
 )
 
 func main() {
 	fmt.Println("hello")
-	str:=[]string{"this", "that", "did", "deed", "them!", "a"}
+	arr:=[]int{1, 2, 3}
 
-
-	res := strings.NewMinimumCharactersForWords().MinimumCharactersForWords(str)
+	res := recursion.NewPermutations().GetPermutations(arr)
 	fmt.Println("res=", res)
 }
