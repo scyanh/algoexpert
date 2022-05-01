@@ -9,6 +9,6 @@ func main() {
 	fmt.Println("hello")
 	arr:=[]int{1, 2, 3}
 
-	res := recursion.NewPermutations().GetPermutations(arr)
+	res := recursion.NewPowerset().Powerset(arr)
 	fmt.Println("res=", res)
 }
